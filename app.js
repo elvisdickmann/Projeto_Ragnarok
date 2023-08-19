@@ -26,7 +26,7 @@ let dados = [
   },
 ];
 
-// Rota
+// Rotas
 app.get("", function (req, res) {
   res.status(200).json(dados);
 });
